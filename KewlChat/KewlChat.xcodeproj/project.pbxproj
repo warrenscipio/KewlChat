@@ -10,6 +10,9 @@
 		CC8C9D2EC2FA2F2DD2C0CFE1 /* Pods_KewlChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5D2758B64656F86427DD9A /* Pods_KewlChat.framework */; };
 		DA96EAD61C78D99F00B1B250 /* ConversationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */; };
 		DA96EADA1C78DA7E00B1B250 /* GroupsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */; };
+		DA96EAE31C7917F500B1B250 /* BasicTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96EAE21C7917F500B1B250 /* BasicTable.swift */; };
+		DA96EAE51C791A1D00B1B250 /* BasicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96EAE41C791A1D00B1B250 /* BasicCell.swift */; };
+		DA96EAE71C791BC400B1B250 /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96EAE61C791BC400B1B250 /* MessagesController.swift */; };
 		DAB523051C782A8200D2B5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB523041C782A8200D2B5DA /* AppDelegate.swift */; };
 		DAB523071C782A8200D2B5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB523061C782A8200D2B5DA /* ViewController.swift */; };
 		DAB5230A1C782A8200D2B5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB523081C782A8200D2B5DA /* Main.storyboard */; };
@@ -43,6 +46,9 @@
 		AC5D2758B64656F86427DD9A /* Pods_KewlChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KewlChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConversationStoryboard.storyboard; sourceTree = "<group>"; };
 		DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupsStoryboard.storyboard; sourceTree = "<group>"; };
+		DA96EAE21C7917F500B1B250 /* BasicTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTable.swift; sourceTree = "<group>"; };
+		DA96EAE41C791A1D00B1B250 /* BasicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCell.swift; sourceTree = "<group>"; };
+		DA96EAE61C791BC400B1B250 /* MessagesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		DAB523011C782A8200D2B5DA /* KewlChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KewlChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB523041C782A8200D2B5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB523061C782A8200D2B5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +130,9 @@
 				DAC4C1D01C7856D7009F8ADE /* LoginScreen.swift */,
 				DAB523081C782A8200D2B5DA /* Main.storyboard */,
 				DAB5230B1C782A8200D2B5DA /* Assets.xcassets */,
+				DA96EAE61C791BC400B1B250 /* MessagesController.swift */,
+				DA96EAE21C7917F500B1B250 /* BasicTable.swift */,
+				DA96EAE41C791A1D00B1B250 /* BasicCell.swift */,
 				DAB5230D1C782A8200D2B5DA /* LaunchScreen.storyboard */,
 				DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */,
 				DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */,
@@ -345,9 +354,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA96EAE51C791A1D00B1B250 /* BasicCell.swift in Sources */,
 				DAB523071C782A8200D2B5DA /* ViewController.swift in Sources */,
+				DA96EAE31C7917F500B1B250 /* BasicTable.swift in Sources */,
 				DAB523051C782A8200D2B5DA /* AppDelegate.swift in Sources */,
 				DAC4C1D11C7856D7009F8ADE /* LoginScreen.swift in Sources */,
+				DA96EAE71C791BC400B1B250 /* MessagesController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
