@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target 'KewlChat' do
+
+	pod 'Alamofire', '~> 3.0'
+
+
+end
+
+target 'KewlChatTests' do
+
+end
+
+target 'KewlChatUITests' do
+
+end
+
