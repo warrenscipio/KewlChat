@@ -7,15 +7,33 @@
 //
 
 import Foundation
+import UIKit
 import Alamofire
 
-class ViewController: UIViewController {
+class LoginScreen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("pokemon")
         
-        Alamofire.request(.GET, "https://httpbin.org/get")
+       
 
+         print ("done")
+        
+        
+        Alamofire.request(.GET, "http://kewlchat.herokuapp.com/users")
+            .responseJSON { response in
+                //print(response.request)  // original URL request
+                //print(response.response) // URL response
+                //print(response.data)     // server data
+                //print(response.result)   // result of response serialization
+                
+                if let JSON = response.result.value {
+                    print("JSON: \(JSON)")
+                }
+        }
+        
+        
     }
     
     override func didReceiveMemoryWarning() {

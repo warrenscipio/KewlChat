@@ -23,14 +23,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="179" y="35" width="42" height="21"/>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgg-Mn-yCu">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Login"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="181" y="308" width="38" height="30"/>
                                 </variation>
                                 <connections>
@@ -40,7 +40,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnt-Dl-EjN">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Sign Up"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="170" y="207" width="61" height="30"/>
                                 </variation>
                                 <connections>
@@ -49,25 +49,11 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="Zgg-Mn-yCu" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="19:300" id="fIZ-Vm-hoq"/>
-                            <constraint firstItem="lnt-Dl-EjN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jOW-FG-u80"/>
-                            <constraint firstItem="z06-3Y-BWr" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="7:100" id="ndb-W0-hgT"/>
-                            <constraint firstItem="lnt-Dl-EjN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="61:600" id="oD2-0q-4Y0"/>
-                            <constraint firstItem="Zgg-Mn-yCu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vfa-TS-hSU"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="z06-3Y-BWr"/>
                                 <exclude reference="Zgg-Mn-yCu"/>
                                 <exclude reference="lnt-Dl-EjN"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="fIZ-Vm-hoq"/>
-                                <exclude reference="vfa-TS-hSU"/>
-                                <exclude reference="jOW-FG-u80"/>
-                                <exclude reference="oD2-0q-4Y0"/>
-                                <exclude reference="ndb-W0-hgT"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -76,13 +62,6 @@
                                 <include reference="Zgg-Mn-yCu"/>
                                 <include reference="lnt-Dl-EjN"/>
                             </mask>
-                            <mask key="constraints">
-                                <include reference="fIZ-Vm-hoq"/>
-                                <include reference="vfa-TS-hSU"/>
-                                <include reference="jOW-FG-u80"/>
-                                <include reference="oD2-0q-4Y0"/>
-                                <include reference="ndb-W0-hgT"/>
-                            </mask>
                         </variation>
                     </view>
                 </viewController>
@@ -90,10 +69,10 @@
             </objects>
             <point key="canvasLocation" x="288" y="289"/>
         </scene>
-        <!--View Controller-->
+        <!--Login Screen-->
         <scene sceneID="8fe-vv-a17">
             <objects>
-                <viewController id="dT1-tB-xa3" sceneMemberID="viewController">
+                <viewController id="dT1-tB-xa3" customClass="LoginScreen" customModule="KewlChat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="aQY-6w-Sq2"/>
                         <viewControllerLayoutGuide type="bottom" id="wiZ-bA-Qkq"/>
@@ -107,8 +86,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
-                                    <rect key="frame" x="179" y="34" width="42" height="21"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="164" y="34" width="47" height="21"/>
                                 </variation>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WRm-tE-AsT">
@@ -145,10 +124,6 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="acQ-Ro-Peb" firstAttribute="centerX" secondItem="xFa-lD-q8D" secondAttribute="centerX" id="V9l-7C-uWc"/>
-                            <constraint firstItem="acQ-Ro-Peb" firstAttribute="width" secondItem="xFa-lD-q8D" secondAttribute="height" multiplier="7:100" id="mfJ-0J-VHl"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="acQ-Ro-Peb"/>
@@ -156,10 +131,6 @@
                                 <exclude reference="zSe-3a-YJF"/>
                                 <exclude reference="pim-ty-QlH"/>
                                 <exclude reference="pRo-CJ-wjY"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="V9l-7C-uWc"/>
-                                <exclude reference="mfJ-0J-VHl"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -170,12 +141,9 @@
                                 <include reference="pim-ty-QlH"/>
                                 <include reference="pRo-CJ-wjY"/>
                             </mask>
-                            <mask key="constraints">
-                                <include reference="V9l-7C-uWc"/>
-                                <include reference="mfJ-0J-VHl"/>
-                            </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7F5-91-Yl0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
