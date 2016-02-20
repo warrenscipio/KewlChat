@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CC8C9D2EC2FA2F2DD2C0CFE1 /* Pods_KewlChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5D2758B64656F86427DD9A /* Pods_KewlChat.framework */; };
+		DA96EAD61C78D99F00B1B250 /* ConversationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */; };
+		DA96EADA1C78DA7E00B1B250 /* GroupsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */; };
 		DAB523051C782A8200D2B5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB523041C782A8200D2B5DA /* AppDelegate.swift */; };
 		DAB523071C782A8200D2B5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB523061C782A8200D2B5DA /* ViewController.swift */; };
 		DAB5230A1C782A8200D2B5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB523081C782A8200D2B5DA /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 		45E3EC468C38694AAA942C5F /* Pods-KewlChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KewlChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KewlChat/Pods-KewlChat.debug.xcconfig"; sourceTree = "<group>"; };
 		816332AF4B0695A7657DA2AB /* Pods-KewlChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KewlChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-KewlChat/Pods-KewlChat.release.xcconfig"; sourceTree = "<group>"; };
 		AC5D2758B64656F86427DD9A /* Pods_KewlChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KewlChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConversationStoryboard.storyboard; sourceTree = "<group>"; };
+		DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupsStoryboard.storyboard; sourceTree = "<group>"; };
 		DAB523011C782A8200D2B5DA /* KewlChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KewlChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB523041C782A8200D2B5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB523061C782A8200D2B5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				DAB523081C782A8200D2B5DA /* Main.storyboard */,
 				DAB5230B1C782A8200D2B5DA /* Assets.xcassets */,
 				DAB5230D1C782A8200D2B5DA /* LaunchScreen.storyboard */,
+				DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */,
+				DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */,
 				DAB523101C782A8200D2B5DA /* Info.plist */,
 			);
 			path = KewlChat;
@@ -262,7 +268,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA96EAD61C78D99F00B1B250 /* ConversationStoryboard.storyboard in Resources */,
 				DAB5230F1C782A8200D2B5DA /* LaunchScreen.storyboard in Resources */,
+				DA96EADA1C78DA7E00B1B250 /* GroupsStoryboard.storyboard in Resources */,
 				DAB5230C1C782A8200D2B5DA /* Assets.xcassets in Resources */,
 				DAB5230A1C782A8200D2B5DA /* Main.storyboard in Resources */,
 			);
