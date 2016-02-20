@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB523051C782A8200D2B5DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB523041C782A8200D2B5DA /* AppDelegate.swift */; };
+		DAB523071C782A8200D2B5DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB523061C782A8200D2B5DA /* ViewController.swift */; };
+		DAB5230A1C782A8200D2B5DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB523081C782A8200D2B5DA /* Main.storyboard */; };
+		DAB5230C1C782A8200D2B5DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB5230B1C782A8200D2B5DA /* Assets.xcassets */; };
+		DAB5230F1C782A8200D2B5DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB5230D1C782A8200D2B5DA /* LaunchScreen.storyboard */; };
+		DAB5231A1C782A8200D2B5DA /* KewlChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB523191C782A8200D2B5DA /* KewlChatTests.swift */; };
+		DAB523251C782A8200D2B5DA /* KewlChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB523241C782A8200D2B5DA /* KewlChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB523161C782A8200D2B5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB522F91C782A8100D2B5DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB523001C782A8100D2B5DA;
+			remoteInfo = KewlChat;
+		};
+		DAB523211C782A8200D2B5DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB522F91C782A8100D2B5DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB523001C782A8100D2B5DA;
+			remoteInfo = KewlChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB523011C782A8200D2B5DA /* KewlChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KewlChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB523041C782A8200D2B5DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB523061C782A8200D2B5DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB523091C782A8200D2B5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB5230B1C782A8200D2B5DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB5230E1C782A8200D2B5DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB523101C782A8200D2B5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB523151C782A8200D2B5DA /* KewlChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KewlChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB523191C782A8200D2B5DA /* KewlChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KewlChatTests.swift; sourceTree = "<group>"; };
+		DAB5231B1C782A8200D2B5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB523201C782A8200D2B5DA /* KewlChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KewlChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB523241C782A8200D2B5DA /* KewlChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KewlChatUITests.swift; sourceTree = "<group>"; };
+		DAB523261C782A8200D2B5DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB522FE1C782A8100D2B5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB523121C782A8200D2B5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5231D1C782A8200D2B5DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB522F81C782A8100D2B5DA = {
+			isa = PBXGroup;
+			children = (
+				DAB523031C782A8200D2B5DA /* KewlChat */,
+				DAB523181C782A8200D2B5DA /* KewlChatTests */,
+				DAB523231C782A8200D2B5DA /* KewlChatUITests */,
+				DAB523021C782A8200D2B5DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB523021C782A8200D2B5DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB523011C782A8200D2B5DA /* KewlChat.app */,
+				DAB523151C782A8200D2B5DA /* KewlChatTests.xctest */,
+				DAB523201C782A8200D2B5DA /* KewlChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB523031C782A8200D2B5DA /* KewlChat */ = {
+			isa = PBXGroup;
+			children = (
+				DAB523041C782A8200D2B5DA /* AppDelegate.swift */,
+				DAB523061C782A8200D2B5DA /* ViewController.swift */,
+				DAB523081C782A8200D2B5DA /* Main.storyboard */,
+				DAB5230B1C782A8200D2B5DA /* Assets.xcassets */,
+				DAB5230D1C782A8200D2B5DA /* LaunchScreen.storyboard */,
+				DAB523101C782A8200D2B5DA /* Info.plist */,
+			);
+			path = KewlChat;
+			sourceTree = "<group>";
+		};
+		DAB523181C782A8200D2B5DA /* KewlChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB523191C782A8200D2B5DA /* KewlChatTests.swift */,
+				DAB5231B1C782A8200D2B5DA /* Info.plist */,
+			);
+			path = KewlChatTests;
+			sourceTree = "<group>";
+		};
+		DAB523231C782A8200D2B5DA /* KewlChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB523241C782A8200D2B5DA /* KewlChatUITests.swift */,
+				DAB523261C782A8200D2B5DA /* Info.plist */,
+			);
+			path = KewlChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB523001C782A8100D2B5DA /* KewlChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB523291C782A8200D2B5DA /* Build configuration list for PBXNativeTarget "KewlChat" */;
+			buildPhases = (
+				DAB522FD1C782A8100D2B5DA /* Sources */,
+				DAB522FE1C782A8100D2B5DA /* Frameworks */,
+				DAB522FF1C782A8100D2B5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KewlChat;
+			productName = KewlChat;
+			productReference = DAB523011C782A8200D2B5DA /* KewlChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB523141C782A8200D2B5DA /* KewlChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB5232C1C782A8200D2B5DA /* Build configuration list for PBXNativeTarget "KewlChatTests" */;
+			buildPhases = (
+				DAB523111C782A8200D2B5DA /* Sources */,
+				DAB523121C782A8200D2B5DA /* Frameworks */,
+				DAB523131C782A8200D2B5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB523171C782A8200D2B5DA /* PBXTargetDependency */,
+			);
+			name = KewlChatTests;
+			productName = KewlChatTests;
+			productReference = DAB523151C782A8200D2B5DA /* KewlChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB5231F1C782A8200D2B5DA /* KewlChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB5232F1C782A8200D2B5DA /* Build configuration list for PBXNativeTarget "KewlChatUITests" */;
+			buildPhases = (
+				DAB5231C1C782A8200D2B5DA /* Sources */,
+				DAB5231D1C782A8200D2B5DA /* Frameworks */,
+				DAB5231E1C782A8200D2B5DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB523221C782A8200D2B5DA /* PBXTargetDependency */,
+			);
+			name = KewlChatUITests;
+			productName = KewlChatUITests;
+			productReference = DAB523201C782A8200D2B5DA /* KewlChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB522F91C782A8100D2B5DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Warren Scipio";
+				TargetAttributes = {
+					DAB523001C782A8100D2B5DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y769PE2249;
+					};
+					DAB523141C782A8200D2B5DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y769PE2249;
+						TestTargetID = DAB523001C782A8100D2B5DA;
+					};
+					DAB5231F1C782A8200D2B5DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y769PE2249;
+						TestTargetID = DAB523001C782A8100D2B5DA;
+					};
+				};
+			};
+			buildConfigurationList = DAB522FC1C782A8100D2B5DA /* Build configuration list for PBXProject "KewlChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB522F81C782A8100D2B5DA;
+			productRefGroup = DAB523021C782A8200D2B5DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB523001C782A8100D2B5DA /* KewlChat */,
+				DAB523141C782A8200D2B5DA /* KewlChatTests */,
+				DAB5231F1C782A8200D2B5DA /* KewlChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB522FF1C782A8100D2B5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB5230F1C782A8200D2B5DA /* LaunchScreen.storyboard in Resources */,
+				DAB5230C1C782A8200D2B5DA /* Assets.xcassets in Resources */,
+				DAB5230A1C782A8200D2B5DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB523131C782A8200D2B5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5231E1C782A8200D2B5DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB522FD1C782A8100D2B5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB523071C782A8200D2B5DA /* ViewController.swift in Sources */,
+				DAB523051C782A8200D2B5DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB523111C782A8200D2B5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB5231A1C782A8200D2B5DA /* KewlChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB5231C1C782A8200D2B5DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB523251C782A8200D2B5DA /* KewlChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB523171C782A8200D2B5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB523001C782A8100D2B5DA /* KewlChat */;
+			targetProxy = DAB523161C782A8200D2B5DA /* PBXContainerItemProxy */;
+		};
+		DAB523221C782A8200D2B5DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB523001C782A8100D2B5DA /* KewlChat */;
+			targetProxy = DAB523211C782A8200D2B5DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB523081C782A8200D2B5DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB523091C782A8200D2B5DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB5230D1C782A8200D2B5DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB5230E1C782A8200D2B5DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB523271C782A8200D2B5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAB523281C782A8200D2B5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB5232A1C782A8200D2B5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KewlChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kewlchat.KewlChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB5232B1C782A8200D2B5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KewlChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kewlchat.KewlChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB5232D1C782A8200D2B5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KewlChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kewlchat.KewlChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KewlChat.app/KewlChat";
+			};
+			name = Debug;
+		};
+		DAB5232E1C782A8200D2B5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KewlChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kewlchat.KewlChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KewlChat.app/KewlChat";
+			};
+			name = Release;
+		};
+		DAB523301C782A8200D2B5DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KewlChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kewlchat.KewlChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KewlChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAB523311C782A8200D2B5DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KewlChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kewlchat.KewlChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KewlChat;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB522FC1C782A8100D2B5DA /* Build configuration list for PBXProject "KewlChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB523271C782A8200D2B5DA /* Debug */,
+				DAB523281C782A8200D2B5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB523291C782A8200D2B5DA /* Build configuration list for PBXNativeTarget "KewlChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5232A1C782A8200D2B5DA /* Debug */,
+				DAB5232B1C782A8200D2B5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB5232C1C782A8200D2B5DA /* Build configuration list for PBXNativeTarget "KewlChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB5232D1C782A8200D2B5DA /* Debug */,
+				DAB5232E1C782A8200D2B5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB5232F1C782A8200D2B5DA /* Build configuration list for PBXNativeTarget "KewlChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB523301C782A8200D2B5DA /* Debug */,
+				DAB523311C782A8200D2B5DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAB522F91C782A8100D2B5DA /* Project object */;
+}
