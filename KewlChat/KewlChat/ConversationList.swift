@@ -19,9 +19,9 @@ class ConversationList: UIViewController, UITableViewDataSource,UITableViewDeleg
     @IBOutlet weak var sendButton: UIButton!
     
     @IBOutlet weak var chatBox: UITextField!
-    var items: [String] = []
+    var items: [String] = ["What up","Wanna buy me chipotle?"]
     
-    var names: [String] = []
+    var names: [String] = ["Warren","Warren"]
     var name = ""
     
     
@@ -35,10 +35,8 @@ class ConversationList: UIViewController, UITableViewDataSource,UITableViewDeleg
     @IBAction func sendButtonClicked(sender: AnyObject) {
         
         sendTextMessage(self.chatBox.text!)
-        print(self.chatBox.text)
-        print(items)
-        
-        print ("was sent")
+       
+        sendTextMessage("I know where you live")
         
     }
     
@@ -52,9 +50,14 @@ class ConversationList: UIViewController, UITableViewDataSource,UITableViewDeleg
     
     func sendTextMessage(message:String){
         
-         let loginScreen:LoginScreen = LoginScreen()
-        items.append(message)
-        names.append(loginScreen.usernameGlobal)
+        if message == "I know where you live" {
+            names.append("Warren")
+            items.append(message)
+        }else{
+            let loginScreen:LoginScreen = LoginScreen()
+            items.append(message)
+            names.append("Me:")
+        }
         
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
             //reload your tableView

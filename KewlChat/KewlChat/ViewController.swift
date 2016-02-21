@@ -25,8 +25,7 @@ class ViewController: UIViewController {
         if (username=="Warren" || username=="Noah" || username == "Stefan"){
             
             
-            let loginScreen:LoginScreen = LoginScreen()
-            loginScreen.usernameGlobal = username!
+            
             
            
             
