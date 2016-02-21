@@ -11,11 +11,14 @@ import Foundation
 import UIKit
 
 
-class ConversationList: UIViewController, UITableViewDataSource,UITableViewDelegate {
+class ConversationList: UIViewController, UITableViewDataSource,UITableViewDelegate,UITextFieldDelegate {
 
     
     @IBOutlet weak var conversationTable: UITableView!
     
+    @IBOutlet weak var sendButton: UIButton!
+    
+    @IBOutlet weak var chatBox: UITextField!
     var items: [String] = ["Conversation 1testing if this works I might be kida mad actually so it better not work Fucking jesus so far it is working if this works for a 3rd line omg ........................................................", "Conversation 2", "Conversation 3"]
     
     var names: [String] = ["Warren", "Noah","Stefan"]
@@ -27,7 +30,42 @@ class ConversationList: UIViewController, UITableViewDataSource,UITableViewDeleg
         conversationTable.rowHeight = UITableViewAutomaticDimension
     }
     
+    @IBAction func sendButtonClicked(sender: AnyObject) {
+        
+        sendTextMessage(self.chatBox.text!)
+        print(self.chatBox.text)
+        print(items)
+        
+        print ("was sent")
+        
+    }
     
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        self.view.endEditing(true)
+        
+        return false
+    }
+    
+    
+    func sendTextMessage(message:String){
+        
+        items.append(message)
+        names.append("me")
+        
+        dispatch_async(dispatch_get_main_queue(), { () -> Void in
+            //reload your tableView
+            self.conversationTable.reloadData()
+            
+        })
+        
+        
+        conversationTable.resignFirstResponder()
+       
+        
+        
+        
+    }
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int  {
         return 1
@@ -40,7 +78,7 @@ class ConversationList: UIViewController, UITableViewDataSource,UITableViewDeleg
         sender.textAlignment = NSTextAlignment.Left
         sender.textColor = UIColor.grayColor()
         sender.font = sender.font.fontWithSize(10)
-        sender.text = "sender"
+        sender.text = names[indexPath.row] as String
         sender.numberOfLines = 0
         sender.lineBreakMode = NSLineBreakMode.ByWordWrapping
 
@@ -62,7 +100,14 @@ class ConversationList: UIViewController, UITableViewDataSource,UITableViewDeleg
         self.conversationTable.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
         configureTableView()
         
+        self.chatBox.delegate = self;
         
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillShow:"), name: UIKeyboardWillShowNotification, object: nil)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillHide:"), name: UIKeyboardWillHideNotification, object: nil)
+        
+    
     }
     
     
@@ -78,11 +123,25 @@ class ConversationList: UIViewController, UITableViewDataSource,UITableViewDeleg
     
     
 
-    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int  {
         return items.count
     }
     
+    
+    func keyboardWillShow(notification: NSNotification) {
+        sendButton.hidden = false
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.CGRectValue() {
+            self.view.frame.origin.y -= keyboardSize.height
+        }
+        
+    }
+    
+    func keyboardWillHide(notification: NSNotification) {
+        sendButton.hidden = true
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.CGRectValue() {
+            self.view.frame.origin.y += keyboardSize.height
+        }
+    }
 
     
     

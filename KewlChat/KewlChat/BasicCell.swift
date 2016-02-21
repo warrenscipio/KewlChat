@@ -43,16 +43,7 @@ class BasicCell: UITableViewCell {
         return 1
     }
   
-    
 
-    
-    
-  
-    
-    
-    
-    
-    
     
     
     
