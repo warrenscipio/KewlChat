@@ -12,11 +12,22 @@ import Alamofire
 
 class LoginScreen: UIViewController {
     
+    @IBOutlet weak var profile: UILabel!
+   
+     var usernameGlobal = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("pokemon")
         
-       
+        print (usernameGlobal)
+        
+        if usernameGlobal != "" {
+            
+            profile.text = usernameGlobal
+           
+            
+        }
 
          print ("done")
         
