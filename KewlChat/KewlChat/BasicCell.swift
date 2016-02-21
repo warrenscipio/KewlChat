@@ -14,8 +14,40 @@ import UIKit
 
 
 class BasicCell: UITableViewCell {
+
+    
+    @IBOutlet weak var message: UILabel!
+    @IBOutlet weak var sender: UILabel!
     
     
+    
+    func viewDidLoad() {
+        viewDidLoad()
+      
+        print("this is the cell class")
+        
+        
+    }
+    
+
+    
+    
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        print("cell #\(indexPath.row)!")
+    }
+    
+    
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int  {
+        return 1
+    }
+  
+    
+
+    
+    
+  
     
     
     

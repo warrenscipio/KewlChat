@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -115,9 +114,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWU-95-R51">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Groups"/>
+                                <state key="normal" title="SingleConversation"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="162" y="91" width="50" height="30"/>
+                                    <rect key="frame" x="121" y="91" width="133" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="dYI-LE-Gtn" kind="show" id="aQs-e2-auY"/>
@@ -125,9 +124,9 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avv-lN-e4j">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="SingleConversation"/>
+                                <state key="normal" title="Groups"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="121" y="139" width="133" height="30"/>
+                                    <rect key="frame" x="163" y="139" width="50" height="30"/>
                                 </variation>
                                 <connections>
                                     <segue destination="HgD-D7-iYZ" kind="show" id="8jq-H2-U1X"/>
@@ -206,7 +205,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="170" y="41" width="61" height="21"/>
                                 </variation>
                             </label>
@@ -236,20 +235,12 @@
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="wyn-BK-s3h" firstAttribute="centerX" secondItem="UFd-8X-rOL" secondAttribute="centerX" id="GU1-AM-jYP"/>
-                            <constraint firstItem="wyn-BK-s3h" firstAttribute="width" secondItem="UFd-8X-rOL" secondAttribute="height" multiplier="61:600" id="W18-7t-wNj"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="wyn-BK-s3h"/>
                                 <exclude reference="632-WH-cjN"/>
                                 <exclude reference="W31-kS-qz6"/>
                                 <exclude reference="xPg-IG-1c4"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="GU1-AM-jYP"/>
-                                <exclude reference="W18-7t-wNj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -259,12 +250,9 @@
                                 <include reference="W31-kS-qz6"/>
                                 <include reference="xPg-IG-1c4"/>
                             </mask>
-                            <mask key="constraints">
-                                <include reference="GU1-AM-jYP"/>
-                                <include reference="W18-7t-wNj"/>
-                            </mask>
                         </variation>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="REq-yz-Zcp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CC8C9D2EC2FA2F2DD2C0CFE1 /* Pods_KewlChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC5D2758B64656F86427DD9A /* Pods_KewlChat.framework */; };
+		DA70FB491C797F6600CD4EB6 /* ConversationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA70FB481C797F6600CD4EB6 /* ConversationList.swift */; };
 		DA96EAD61C78D99F00B1B250 /* ConversationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */; };
 		DA96EADA1C78DA7E00B1B250 /* GroupsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */; };
 		DA96EAE31C7917F500B1B250 /* BasicTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA96EAE21C7917F500B1B250 /* BasicTable.swift */; };
@@ -44,6 +45,7 @@
 		45E3EC468C38694AAA942C5F /* Pods-KewlChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KewlChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KewlChat/Pods-KewlChat.debug.xcconfig"; sourceTree = "<group>"; };
 		816332AF4B0695A7657DA2AB /* Pods-KewlChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KewlChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-KewlChat/Pods-KewlChat.release.xcconfig"; sourceTree = "<group>"; };
 		AC5D2758B64656F86427DD9A /* Pods_KewlChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KewlChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA70FB481C797F6600CD4EB6 /* ConversationList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationList.swift; sourceTree = "<group>"; };
 		DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ConversationStoryboard.storyboard; sourceTree = "<group>"; };
 		DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GroupsStoryboard.storyboard; sourceTree = "<group>"; };
 		DA96EAE21C7917F500B1B250 /* BasicTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicTable.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				DAB5230D1C782A8200D2B5DA /* LaunchScreen.storyboard */,
 				DA96EAD51C78D99F00B1B250 /* ConversationStoryboard.storyboard */,
 				DA96EAD91C78DA7E00B1B250 /* GroupsStoryboard.storyboard */,
+				DA70FB481C797F6600CD4EB6 /* ConversationList.swift */,
 				DAB523101C782A8200D2B5DA /* Info.plist */,
 			);
 			path = KewlChat;
@@ -358,6 +361,7 @@
 				DAB523071C782A8200D2B5DA /* ViewController.swift in Sources */,
 				DA96EAE31C7917F500B1B250 /* BasicTable.swift in Sources */,
 				DAB523051C782A8200D2B5DA /* AppDelegate.swift in Sources */,
+				DA70FB491C797F6600CD4EB6 /* ConversationList.swift in Sources */,
 				DAC4C1D11C7856D7009F8ADE /* LoginScreen.swift in Sources */,
 				DA96EAE71C791BC400B1B250 /* MessagesController.swift in Sources */,
 			);
